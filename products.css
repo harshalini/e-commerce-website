@@ -10,7 +10,10 @@
 .navbar {
     display: flex;
 }
-
+.logo a {
+    color: var(--orange);
+    text-decoration: none;
+}
 .all-products {
     color: var(--black);
     margin-top: 7rem;
