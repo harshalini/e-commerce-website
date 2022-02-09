@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cart.css">
+    <title>Cart | Vivir fashion</title>
+</head>
+<body>
+    <div class="container product-navbar">
+        <div class="navbar">
+            <div class="logo">
+             <a href="../home/index.html">vivir</a>
+            </div>
+            <nav>
+                <ul class="nav-pages">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../products-page/products.html">Products</a></li>
+                    <li><a style="color: var(--orange);
+                        border-bottom: dotted 2px var(--orange);" href="#">Cart</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <div class="cart-product">
+            <p class="table-title">Product</p>
+            <p class="table-title">Quantity</p>
+            <p class="table-title">Subtotal</p>
+            <div class="cart-item">
+                <img src="../assets/products/women-dress3.webp" alt="">
+                <div class="item-details">
+                    <p>Women pattern dress</p>
+                    <small>Price: Rs.800</small> <br>
+                    <a href="#" class="remove-btn">Remove</a>
+                </div>
+            </div>
+            <div class="quantity"><input type="number" value="1"></div>
+            <p class="cart-price">Rs.800</p>
+            <div class="cart-item">
+                <img src="../assets/deals/shoes-deals.jpg" alt="">
+                <div class="item-details">
+                    <p>Men olive sneakers</p>
+                    <small>Price: Rs.994</small> <br>
+                    <a href="#" class="remove-btn">Remove</a>
+                </div>
+            </div>
+            <div class="quantity"><input type="number" value="1"></div>
+            <p class="cart-price">Rs.994</p>
+            <div class="cart-item">
+                <img src="../assets/products/men-jeans2.jpg" alt="">
+                <div class="item-details">
+                    <p>Men skyblue jeans</p>
+                    <small>Price: Rs.1599</small> <br>
+                    <a href="#" class="remove-btn">Remove</a>
+                </div>
+            </div>
+            <div class="quantity"><input type="number" value="1"></div>
+            <p class="cart-price">Rs.1599</p>
+        </div>
+        <div class="price-container">
+            <div>
+                <p>Subtotal</p>
+                <p>Rs.3393</p>
+            </div>
+            <div>
+                <p>Shipping charges</p>
+                <p>Rs.49</p>
+            </div>
+            <div>
+                <p>Total</p>
+                <p><strong> Rs.3442</strong></p>
+            </div>
+            <div>
+                <a href="#"><button class="v-btn" id="checkout-btn">Proceed to checkout</button></a>
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>
