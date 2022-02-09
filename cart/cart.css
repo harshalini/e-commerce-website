@@ -7,7 +7,7 @@
 .cart-product img {
     width: 5rem;
     height: 6rem;
-    margin-right: 0.65rem;
+    margin-right: 10px;
 }
 .cart-product input {
     width: 2.5rem;
@@ -16,6 +16,10 @@
 }
 .cart-item {
     display: flex;
+}
+.nav-pages .cart-link {
+    color: var(--orange);
+    border-bottom: dotted 2px var(--orange);
 }
 .remove-btn {
     color: var(--orange);
@@ -33,7 +37,7 @@
     color: var(--white);
     text-align: center;
     margin: auto 0;
-    padding: 0.5rem;
+    padding: 8px;
 }
 .cart-price, .quantity {
     text-align: center;

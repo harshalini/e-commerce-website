@@ -62,6 +62,10 @@ nav ul li {
     color: black;
     font-size: 1.19rem;
 }
+.nav-pages .home-link {
+    color: var(--orange);
+    border-bottom: dotted 2px var(--orange);
+}
 .nav-pages a:focus {
     color: var(--orange);
     border-bottom: dotted 2px var(--orange);
