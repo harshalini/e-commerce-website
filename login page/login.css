@@ -76,6 +76,11 @@ form .account-btn {
     font-weight: 500;
     font-size: 1rem;
 }
+.account-btn:hover {
+    color: var(--orange);
+    background-color: var(--white);
+    border: solid 2px var(--orange);
+}
 .account-btn:focus {
     outline: none;
 }
