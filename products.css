@@ -18,9 +18,68 @@
     color: var(--orange);
     border-bottom: dotted 2px var(--orange);
 }
-.all-products {
-    color: var(--black);
+
+.product-flex {
+    display: flex;
     margin-top: 7rem;
+    justify-content: space-between;
+}
+.sidebar {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin: 0;
+    width: 16rem;
+    position: sticky;
+    top: 5.5rem;
+    margin-top: -1.5rem;
+    height: 100vh;
+    background: radial-gradient(var(--white), var(--light-coral));
+}
+.clear-btn {
+   background: none;
+    border: none;
+    margin-left: 8rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: var(--orange);
+    cursor: pointer;
+}
+.sidebar span {
+    font-weight: 500;
+    margin-left: 1rem;
+    border-bottom: solid 3px var(--orange);
+    padding-bottom: 2px;
+}
+select {
+    padding: 3px 1rem;
+    margin: auto;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    margin: 1rem;
+}
+.category-filter div {
+   display: flex;
+    margin-left: -3.5rem;  
+}
+.category-filter div label {
+    margin-left: -7.5rem;
+}
+.category-filter div label:hover {
+    color: var(--orange);
+}
+.men-categories, .women-categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+input[type="range"] {
+    width: 90%;
+}
+.all-products {
+    margin-top: 0;
+    color: var(--black);
 }
 button.addCart-btn {
     position: absolute;

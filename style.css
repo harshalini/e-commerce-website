@@ -120,6 +120,7 @@ nav ul li {
     display: grid;
     grid-template-columns: repeat(4, 14rem);
     justify-content: space-evenly;
+    gap: 6rem;
 }
 .card-with-shadow {
     box-shadow: none;

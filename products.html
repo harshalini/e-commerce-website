@@ -14,6 +14,9 @@
             <div class="logo">
              <a href="index.html">vivir</a>
             </div>
+             <div class="ui-component input search-input">
+               <input type="text" placeholder="Looking for something?">
+             </div>
             <nav>
                 <ul class="nav-pages">
                     <li><a href="index.html">Home</a></li>
@@ -26,6 +29,71 @@
         </div>
     </div>
 
+
+<div class="product-flex">
+  <aside class="sidebar">
+    <button class="clear-btn">Clear all</button>
+    <div class="price-filter">
+      <span>Filter by price</span>
+      <input type="range" min="350" max="6000">
+    </div>
+
+    <div class="sort">
+      <span>Sort by Price</span> <br>
+      <select>
+        <option>High to low</option>
+        <option>Low to high</option>
+      </select>
+    </div>
+    
+    <div class="category-filter">
+      <span>Sort by category</span> <br>
+      <span>Men</span>
+      <div class="men-categories">
+      <div>
+      <input type="checkbox" id="tshirt">
+      <label for="tshirt">Tshirt</label>
+      </div>
+      <div>
+      <input type="checkbox" id="shirt">
+      <label for="shirt">Shirt</label>
+      </div>
+      <div>
+      <input type="checkbox" id="jeans">
+      <label for="jeans">Jeans</label>
+      </div>
+    </div>
+      <br>
+      <span>Women</span>
+      <div class="women-categories">
+      <div>
+        <input type="checkbox" id="dresses">
+        <label for="dresses">Dresses</label>
+      </div>
+      <div>
+      <input type="checkbox" id="saree">
+      <label for="saree">Saree</label>
+      </div>
+      <div>
+      <input type="checkbox" id="kurta">
+      <label for="kurta">Kurta</label>
+      </div>
+      </div>
+    </div>
+
+    <div class="sort-by-rating">
+      <span>Sort by ratings</span>
+      <select name="" id="">
+        <option>4 star and above</option>
+        <option>3 star and above</option>
+        <option>2 star and above</option>
+        <option>1 star and above</option>
+      </select>
+    </div>
+
+  </aside>
+
+  <div class="vivir-products">
     <h2 class="all-products">All Products</h2>
     <div class="featured-products product-row-1">
         <div class="ui-component card card-with-shadow">
@@ -634,6 +702,8 @@
         </div>
       </div>
   </div>
+</div>
+</div>
 </div>
 
 <footer div="web-footer">
