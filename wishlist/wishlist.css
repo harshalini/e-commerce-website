@@ -1,0 +1,29 @@
+@import url(../products.css);
+
+:root {
+    --red: red;
+}
+
+.wishlist-heading {
+    margin-top: 7rem;
+}
+.nav-pages .wishlist-link {
+    color: var(--orange);
+    border-bottom: dotted 2px var(--orange);
+}
+.move-cart-btn {
+    color: var(--orange);
+    border: none;
+    background: radial-gradient(var(--white), var(--light-coral));
+
+}
+.move-cart-btn:hover {
+    background: radial-gradient(var(--white), var(--coral));
+}
+.wl-heart {
+    margin-top: 7.5rem;
+    color: var(--red);
+}
+.wishlist-ratings {
+    margin-top: 5rem;
+}
