@@ -133,4 +133,7 @@ form .account-btn {
     .signUp-offer, .form-container {
         width: 18rem;
     }
+    .account-container {
+        margin-top: 5rem;
+    }
 }

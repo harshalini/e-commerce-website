@@ -289,7 +289,7 @@ footer ul li a{
         z-index: 3;
         background: radial-gradient(var(--white), var(--light-coral));
         margin-left: -2.5rem;
-        padding-right: 8rem;
+        padding-right: 6rem;
     }
     .product-container {
         flex-direction: column;
