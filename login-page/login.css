@@ -128,3 +128,12 @@ form .account-btn {
 #signup-btn:checked ~ .login-form {
     display: none;
 }
+
+@media only screen and (max-width: 480px) {
+    .signUp-offer, .form-container {
+        width: 18rem;
+    }
+    .account-container {
+        margin-top: 5rem;
+    }
+}

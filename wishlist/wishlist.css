@@ -27,3 +27,28 @@
 .wishlist-ratings {
     margin-top: 5rem;
 }
+
+@media only screen and (max-width: 480px) {
+    .wishlist-heading {
+        display: none;
+    }
+    .wishlist-products {
+        margin-top: 12rem;
+        margin-bottom: 0;
+    }
+    .wishlist-products .card {
+        margin-bottom: 5rem;
+        padding-bottom: 5rem;
+    }
+    .wishlist-products .wishlist {
+        margin-top: 1.5rem;
+    }
+    .wishlist-ratings {
+        margin-top: -1.5rem;
+        margin-left: 8px;
+    }
+    .move-cart-btn {
+        font-size: 14px;
+        margin-left: -5rem;
+    }
+}
