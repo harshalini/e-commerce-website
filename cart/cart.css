@@ -1,4 +1,5 @@
 @import url(../products.css);
+@import url(../wishlist/wishlist.css);
 
 .cart-container {
     margin: auto;
