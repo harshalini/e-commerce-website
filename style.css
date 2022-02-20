@@ -324,10 +324,7 @@ footer ul li a{
     .explore-btn {
         width: 10rem;
     }
-    footer {
-        display: none;
-    }
-    .search-input {
+    footer, .search-input {
         display: none;
     }
 }
